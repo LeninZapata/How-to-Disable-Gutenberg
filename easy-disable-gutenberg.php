@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name: How to Disable Gutenberg
+ * Plugin Name: Easy Disable Gutenberg
  * Plugin URI:  
  * Description: This plugin is created for lovers of the classic wordpress editor with whom we worked for many years.
  * Version:     1.0
@@ -20,8 +20,8 @@
  * even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
  */
 
-if ( ! class_exists( 'Disable_Gutenberg' ) ) {
-    final class Disable_Gutenberg{
+if ( ! class_exists( 'Easy_Disable_Gutenberg' ) ) {
+    final class Easy_Disable_Gutenberg{
 
         public function __construct(){
             $this->init();
@@ -34,5 +34,5 @@ if ( ! class_exists( 'Disable_Gutenberg' ) ) {
 
     }
 }
-new Disable_Gutenberg;
+new Easy_Disable_Gutenberg;
 ?>
