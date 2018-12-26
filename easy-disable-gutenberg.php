@@ -28,8 +28,21 @@ if ( ! class_exists( 'Easy_Disable_Gutenberg' ) ) {
         }
 
         public function init(){
-            // We start with a filter to deactivate it
-            add_filter('use_block_editor_for_post', '__return_false');
+
+            // Disable Gutenberg
+
+            if (version_compare($GLOBALS['wp_version'], '5.0-beta', '>')) {
+                
+                // WP > 5 beta
+                add_filter('use_block_editor_for_post_type', '__return_false', 10);
+                
+            } else {
+                
+                // WP < 5 beta
+                add_filter('gutenberg_can_edit_post_type', '__return_false', 10);
+                
+            }
+
         }
 
     }
