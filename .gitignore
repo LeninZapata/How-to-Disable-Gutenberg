@@ -1,4 +1,5 @@
 *.vscode
 *.todo
 *.txt
-settings.json
+.vscode/settings.json
+*.gitignore
