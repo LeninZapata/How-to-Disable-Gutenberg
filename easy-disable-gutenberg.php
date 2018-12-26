@@ -28,8 +28,10 @@ if ( ! class_exists( 'Easy_Disable_Gutenberg' ) ) {
         }
 
         public function init(){
+
             // We start with a filter to deactivate it
             add_filter('use_block_editor_for_post', '__return_false');
+
         }
 
     }
