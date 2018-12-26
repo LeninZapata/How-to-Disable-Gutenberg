@@ -2,5 +2,6 @@ codigo de plugin testing.txt
 *.vscode
 *.todo
 *.txt
+-readme.txt
 .vscode/settings.json
 *.gitignore
