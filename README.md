@@ -1,2 +1,2 @@
-# Easy Disable Gutenberg
+# Easy Disable Block Editor
 This plugin is created for lovers of the classic wordpress editor with whom we worked for many years....
