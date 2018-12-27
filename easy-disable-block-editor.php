@@ -4,7 +4,7 @@
  * Plugin URI:  
  * Description: This plugin is created for lovers of the classic wordpress editor with whom we worked for many years.
  * Version:     1.0
- * Author:      iLenStudio
+ * Author:      iLen
  * Author URI:  https://github.com/LeninZapata/how-to-disable-gutenberg
  * License:     GPLv2 or later
  * License URI: http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
