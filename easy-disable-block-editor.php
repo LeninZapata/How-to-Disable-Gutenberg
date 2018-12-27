@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name: Easy Disable Gutenberg
+ * Plugin Name: Easy Disable Block Editor
  * Plugin URI:  
  * Description: This plugin is created for lovers of the classic wordpress editor with whom we worked for many years.
  * Version:     1.0
@@ -20,8 +20,8 @@
  * even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
  */
 
-if ( ! class_exists( 'Easy_Disable_Gutenberg' ) ) {
-    final class Easy_Disable_Gutenberg{
+if ( ! class_exists( 'Easy_Disable_Block_Editor' ) ) {
+    final class Easy_Disable_Block_Editor{
 
         public function __construct(){
             $this->init();
@@ -47,5 +47,5 @@ if ( ! class_exists( 'Easy_Disable_Gutenberg' ) ) {
 
     }
 }
-new Easy_Disable_Gutenberg;
+new Easy_Disable_Block_Editor;
 ?>
